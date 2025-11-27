@@ -19,6 +19,7 @@ void scan(void) {
   currentToken = lookAhead;
   lookAhead = getValidToken();
   free(tmp);
+  
 }
 
 void eat(TokenType tokenType) {
